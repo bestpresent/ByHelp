@@ -1,5 +1,5 @@
 #валидные данные
-from selene import browser, be, have
+from selene import browser, be
 
 browser.open('https://dev.byhelp.ru/authorization')
 browser.element('#rc-tabs-0-tab-password').click()
